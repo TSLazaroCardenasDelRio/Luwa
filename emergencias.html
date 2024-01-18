@@ -1,0 +1,1778 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emergencias</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <!-- BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-xl" id="menuNavegacion">
+      <div class="container-fluid">
+        <!-- LOGOS-->
+        <div class="row">
+          <div class="col" id="logos">
+            <a class="navbar-brand" href="index.html">
+              <img src="imagenes/luwa1.png" class="img-fluid margen-ima">
+            </a>
+          </div>
+          <div class="col" id="logo">
+            <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=100086494817985&mibextid=LQQJ4d">
+              <img src="imagenes/logo2.png" class="img-fluid margen-ima">
+            </a>
+          </div>
+        </div>
+
+        <!-- OPCIONES DEL MENÚ LUWA-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="opciones-menu">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="inicio.html">INICIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="fundamentoTeorico.html" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href='fundamentoTeorico.html';">
+                  FUNDAMENTO TEÓRICO
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" id="submenu">
+                  <li><a class="dropdown-item" href="serpienteMitología.html">Mitología
+                      mesoamericana</a></li>
+                  <li><a class="dropdown-item" href="protocolosActuacion.html">Protocolos de
+                      actuación</a>
+                  </li>
+                  <li><a class="dropdown-item" href="educacionAmbiental.html">Educación ambiental y
+                      conservación</a></li>
+                  <li><a class="dropdown-item" href="amenazasConservacion.html">Amenazas a la
+                      conservación</a></li>
+                  <li><a class="dropdown-item" href="serviciosEcosistemiscos.html">Servicios
+                      ecosistémicos</a></li>
+                  <li><a class="dropdown-item" href="caracteristicas.html">Características
+                      generales</a>
+                  </li>
+                  <li><a class="dropdown-item" href="conflictoSeresHumanos.html">Conflicto en los
+                      seres
+                      humanos</a></li>
+                  <li><a class="dropdown-item" href="serpientesComunidad.html">Serpientes en mi
+                      comunidad</a></li>
+                  <li><a class="dropdown-item" href="diversidadMexico.html">Diversidad de serpientes
+                      en
+                      México</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="evidencias.html">EVIDENCIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="materialDescargable.html">MATERIAL DESCARGABLE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN DE BARRA DE NAVEGACIÓN-->
+  </header>
+
+
+
+  <div class="container-fluid" id="contenedor-emergencias">
+    <div class="row g-0" id="fila-descripcion">
+      <div class="col-md-8">
+        <h1 id="titulo-principal-hospital">Hospitales de la Sierra Nororiental del estado de Puebla</h1>
+        <p id="parrafo-principal-hosp">
+          Hospitales que cuentan con los productos terapéuticos en caso de haber sido mordido por una
+          serpiente para recibir la atención médica necesaria.
+        </p>
+      </div>
+    </div>
+    <!-- FIN DE FILA DE DESCRIPCION EMERGENCIAS-->
+
+
+    <div class="row g-0" id="fila-hospitales">
+      <div class="col-md-4" id="col-hospitales">
+        <div class="overflow-auto" id="scroll-emergencias">
+
+
+          <div class="accordion" id="accordionExample">
+
+
+            <!-- UNIDAD MEDICA LA PAZ-->
+            <div class="accordion-item" id="acordeon-hospital">
+              <h2 class="accordion-header" id="headingOne">
+                <button id="acordeon" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start"
+                        alt="icon-hospital">
+                    </div>
+
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-1');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+
+
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Unidad Médica La Paz</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital La Paz, Av Reforma Sur 92, La Paz, 72160 Heroica Puebla de Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 248 2710
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.hospitallapaz.com.mx/" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.hospitallapaz.com.mx/" class="link-hospitales">Ir a la página</a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- ISSSTEP PUEBLA-->
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-2');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">ISSSTEP Puebla</h5>
+                      <p class="parrafo-hospitales">
+                        ISSSTEP URGENCIAS, Av Emiliano Zapata 4732, San Baltazar Campeche, 72550 Heroica Puebla de
+                        Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+
+                        222 233 5825
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://issstep.puebla.gob.mx/" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://issstep.puebla.gob.mx/" class="link-hospitales">Ir a la página</a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- IMSS -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-3');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">IMSS Unidad Médica Familiar No. 57 Puebla</h5>
+                      <p class="parrafo-hospitales">
+                        IMSS UMF 57, Avenida Fidel Velazquez, Av 42 Sur y, INFONAVIT la Margarita, 72560 Heroica Puebla
+                        de
+                        Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 244 9637
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- IMMSS la margarita-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-4');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">IMSS La Margarita</h5>
+                      <p class="parrafo-hospitales">
+                        IMSS Hospital General de Zona 20 La Margarita, Blvd. Municipio Libre, INFONAVIT la Margarita,
+                        72560 Heroica Puebla de Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 233 9300
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- IMSS Hospital General de Zona 15 Tehuacán-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-5');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">IMSS Hospital General de Zona 15 Tehuacán</h5>
+                      <p class="parrafo-hospitales">
+                        IMSS Hospital General de Zona 15 Tehuacan, 18 Pte. s/n, San Nicolás Tetitzintla, 75710 Tehuacán,
+                        Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        238 383 2304
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital Universitario -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-6');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Universitario</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital Universitario de Puebla BUAP, Av 27 Pte, Los Volcanes, 72410 Heroica Puebla de
+                        Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 243 1542
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="http://www.hup.buap.mx/" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="http://www.hup.buap.mx/" class="link-hospitales">Ir a la página</a>
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital Regional ISSSTE -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-7');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Regional ISSSTE</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital Regional de Alta Especialidad ISSSTE Puebla, C. 14 Sur 4336, Zona Sin Asignación de
+                        Nombre de Col 50, Jardines de San Manuel, 72570 Heroica Puebla de Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 245 3511
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.gob.mx/issste" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.gob.mx/issste" class="link-hospitales">Ir a la página</a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital Puebla -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-8');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Puebla</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital Puebla, Priv. de las Ramblas 4, Reserva Territorial Atlixcáyotl, Corredor Comercial
+                        Desarrollo Atlixcayotl, 72197 Heroica Puebla de Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 594 0619
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.hospitalpuebla.com.mx/?an=1366&al=768" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.hospitalpuebla.com.mx/?an=1366&al=768" class="link-hospitales">Ir a la
+                        página</a>
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital Militar Puebla-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-9');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Militar Puebla</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital Militar Regional Puebla, Av. 5 de Mayo 49, Héroes de Puebla, 72080 Heroica Puebla de
+                        Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 236 3100
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+
+            <!-- Hospital General Zona Norte Puebla-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-10');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General Zona Norte Puebla</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital Gral. Zona Norte de Puebla, Nuevo Laredo, Estación Nueva, 72200 Heroica Puebla de
+                        Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">222 367 9282
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital General de Zacatlán-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-11');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General de Zacatlán</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital General de Zacatlán, Del Roble o, C. del Roble 7, Barrio San Bartolo, 73310 Zacatlán,
+                        Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        797 975 0159
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+
+            <!-- Hospital General de Tepeaca-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-12');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General de Tepeaca</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital General de Tepeaca, Dr. Antonio López Rosas S/N, San Isidro, 75200 Tepeaca, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        223 478 2099
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital General de Tehuacán-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-13');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General de Tehuacán</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital General de Tehuacan, C. 19 Pte. 3800, El Riego, México, 75764 Tehuacán, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        238 382 6057
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital General de Huauchinango-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-14');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General de Huauchinango</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital General de Huauchinango, calle Ini No. 7, Fetse, Colonia Fstse, 73160 Huauchinango,
+                        Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        776 762 0049
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital General de Cholula-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-15');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital General de Cholula</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital General de Cholula, 72820 San Bernardino Tlaxcalancingo, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">222 214 4300
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital del Niño Poblano-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSixteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-16');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital del Niño Poblano</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital para el Niño Poblano, Blvrd del Niño Poblano 5307, Reserva Territorial Atlixcáyotl,
+                        Concepción la Cruz, 72190 San Andrés Cholula, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 404 0904 EXT 193
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://ss.puebla.gob.mx/" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://ss.puebla.gob.mx/" class="link-hospitales">Ir a la página</a>
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital de la Mujer y Neonatologí­a de Tehuacán-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeventeen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-17');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital de la Mujer y Neonatologí­a de Tehuacán</h5>
+                      <p class="parrafo-hospitales">
+                        hospital de la mujer y neonatologia, Federal Pte., San Lorenzo Teotipilco, 75855 Tehuacán, Pue.
+                      </p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        238 380 5000
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital de la Mujer-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEighteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-18');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital de la Mujer</h5>
+                      <p class="parrafo-hospitales">
+                        Hospital de la Mujer Puebla, Antiguo Camino Guadalupe Hidalgo 11350, Agua santa, Guadalupe
+                        Hidalgo, 72490 Heroica Puebla de Zaragoza, Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 395 0925
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.facebook.com/Hospitaldelamujerpuebla/" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.facebook.com/Hospitaldelamujerpuebla/" class="link-hospitales">Ir a la
+                        página</a>
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+            <!-- Hospital Christus Muguerza UPAEP-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNineteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseSixteen">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-19');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Christus Muguerza UPAEP</h5>
+                      <p class="parrafo-hospitales">
+                        CHRISTUS MUGUERZA Hospital UPAEP, Av 5 Pte 715, Centro, 72000 Heroica Puebla de Zaragoza, Pue.
+                      </p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 229 8100
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.christusmuguerza.com.mx/hospital-upaep" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.christusmuguerza.com.mx/hospital-upaep" class="link-hospitales">Ir a la
+                        página</a>
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+
+            <!-- Hospital Christus Muguerza Betania-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwenty">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                      <img src="imagenes/icon_hospital.png" id="img-hospital" class="img-fluid rounded-start" alt="icon-hospital">
+                    </div>
+                    <div class="col-1">
+                      <img onclick="mostrarMapa('mapa-20');" src="imagenes/icon_ubicacion.png"
+                        class="img-fluid rounded-start" alt="icon-ubicacion">
+                    </div>
+                    <div class="col-9 col-info">
+                      <h5 class="titulos-hospitales">Hospital Christus Muguerza Betania</h5>
+                      <p class="parrafo-hospitales">
+                        CHRISTUS MUGUERZA Hospital Betania, Av 11 Ote 1826, Azcarate, 72501 Heroica Puebla de Zaragoza,
+                        Pue.</p>
+                    </div>
+                  </div>
+
+
+                </button>
+              </h2>
+              <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+
+                    </div>
+                    <div class="col-1">
+                      <img src="imagenes/icon_telefono.png" class="img-fluid rounded-start" alt="icon-telefono">
+                    </div>
+                    <div class="col-9 col-info">
+                      <p class="parrafo-hospitales">
+                        222 213 8300
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row g-0 fila-datos">
+                    <div class="col-2 fondo-hospital">
+                    </div>
+                    <div class="col-1">
+                      <a href="https://www.christusmuguerza.com.mx/hospital-betan" class="link-primary">
+                        <img src="imagenes/icon_page.png" class="img-fluid rounded-start" alt="icon-page">
+                      </a>
+
+                    </div>
+                    <div class="col-9 col-info">
+                      <a href="https://www.christusmuguerza.com.mx/hospital-betan" class="link-hospitales">Ir a la
+                        página</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------- -->
+
+
+
+          </div>
+          <!-- FIN DE CONTENEDOR DE ACORDEON DE HOSPITALES-->
+
+
+        </div>
+        <!-- FIN DE SCROLL DE MAPAS-->
+
+      </div>
+      <!-- FIN DE COLUMNA DE HOSPITALES-->
+
+
+
+
+      <!-- MAPAS DE CADA HOSPITAL-->
+      <div class="col-md-8" id="col-mapa">
+
+
+        <div class="container mt-5 contenedor-mapas">
+
+          <!-- MAPA GENERAL-->
+          <div id="mapa-general" class="contenedorMapa">
+            <h2 class="titulos-mapas">Hospitales a los que puedes acudir</h2>
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=1tnJd-_9M8YmXbvCK9vyie4d5qO3tOC0&ehbc=2E312F&noprof=1"
+              width="100%" height="480"></iframe>
+          </div>
+
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-1" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Unidad Médica La Paz</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d30168.894507819565!2d-98.2260647!3d19.0588209!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc6d3ef81e305%3A0x57bbc9d61b6f5adc!2sHospital%20La%20Paz%20Av%20Reforma%20Sur%2092%20La%20Paz%2072160%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0588209!2d-98.2260647!5e0!3m2!1ses-419!2smx!4v1701830590833!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-2" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">ISSSTEP Puebla</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7543.858655190375!2d-98.2019596!3d19.0228356!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc1d877af3e7b%3A0x7ae5d8dd408dcafe!2sISSSTEP%20URGENCIAS%20Av%20Emiliano%20Zapata%204732%20San%20Baltazar%20Campeche%2072550%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0228356!2d-98.2019596!5e0!3m2!1ses-419!2smx!4v1701832048826!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-3" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">IMSS Unidad Médica Familiar No. 57 Puebla</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7544.485086811744!2d-98.1823079!3d19.0090311!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0ba7a6611a5%3A0x51e87e3a61c21470!2sIMSS%20UMF%2057%20Avenida%20Fidel%20Velazquez%2C%20Av%2042%20Sur%20y%20INFONAVIT%20la%20Margarita%2072560%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.009031099999998!2d-98.1823079!5e0!3m2!1ses-419!2smx!4v1701834093289!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-4" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">IMSS La Margarita</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7544.507523038854!2d-98.1827009!3d19.0085365!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0818fae7665%3A0xad0c531218a343ba!2sIMSS%20Hospital%20General%20de%20Zona%2020%20La%20Margarita%20Blvd.%20Municipio%20Libre%20INFONAVIT%20la%20Margarita%2072560%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.008536499999998!2d-98.1827009!5e0!3m2!1ses-419!2smx!4v1701834382490!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-5" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">IMSS Hospital General de Zona 15 Tehuacán</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7568.361130579688!2d-97.3952403!3d18.4754785!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85c5a2db8b000001%3A0xcdec5afea485ae26!2sIMSS%20Hospital%20General%20de%20Zona%2015%20Tehuacan%2018%20Pte.%20s%2Fn%20San%20Nicol%C3%A1s%20Tetitzintla%2075710%20Tehuac%C3%A1n%2C%20Pue.!3m2!1d18.475478499999998!2d-97.3952403!5e0!3m2!1ses-419!2smx!4v1701834575895!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-6" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Universitario</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d60344.82964740242!2d-98.2135165!3d19.0394594!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0db8c88a509%3A0x96556582f5987ff2!2sHospital%20Universitario%20de%20Puebla%20BUAP%20Av%2027%20Pte%20Los%20Volcanes%2072410%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0394594!2d-98.2135165!5e0!3m2!1ses-419!2smx!4v1701834620859!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-7" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Regional ISSSTE</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7543.958000439711!2d-98.1987938!3d19.020647!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0962b752dcb%3A0x297bf6178c4eedb6!2sHospital%20Regional%20de%20Alta%20Especialidad%20ISSSTE%20Puebla%20C.%2014%20Sur%204336%20Zona%20Sin%20Asignaci%C3%B3n%20de%20Nombre%20de%20Col%2050%2C%20Jardines%20de%20San%20Manuel%2072570%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.020647!2d-98.19879379999999!5e0!3m2!1ses-419!2smx!4v1701834659174!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-8" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Puebla</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7543.5305461359885!2d-98.2287199!3d19.0300622!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc776ef75190d%3A0xde4d9063394de177!2sHospital%20Puebla%20Priv.%20de%20las%20Ramblas%204%20Reserva%20Territorial%20Atlixc%C3%A1yotl%2C%20Corredor%20Comercial%20Desarrollo%20Atlixcayotl%2072197%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0300622!2d-98.2287199!5e0!3m2!1ses-419!2smx!4v1701834692079!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-9" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Militar Puebla</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7544.037165537916!2d-98.1753421!3d19.0189028!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc062cc8a31bd%3A0x4708572086bc4a21!2sHospital%20Militar%20Regional%20Puebla%20Av.%205%20de%20Mayo%2049%20H%C3%A9roes%20de%20Puebla%2072080%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0189028!2d-98.1753421!5e0!3m2!1ses-419!2smx!4v1701834727161!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-10" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General Zona Norte Puebla</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7541.304743489373!2d-98.1847669!3d19.0790159!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc1733f5911f1%3A0x32ae769757902db3!2sHospital%20General%20Zona%20Norte%20de%20Puebla%20Nuevo%20Laredo%20Estaci%C3%B3n%20Nueva%2072200%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.079015899999998!2d-98.1847669!5e0!3m2!1ses-419!2smx!4v1701834764085!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-11" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General de Zacatlán</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7502.21797411694!2d-97.9629106!3d19.9198116!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85d06fd3d13db03d%3A0x142fbcf214b8a979!2sHospital%20General%20de%20Zacatl%C3%A1n%20Del%20Roble%20o%2C%20C.%20del%20Roble%207%20Barrio%20San%20Bartolo%2073310%20Zacatl%C3%A1n%2C%20Pue.!3m2!1d19.9198116!2d-97.9629106!5e0!3m2!1ses-419!2smx!4v1701834798406!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-12" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General de Tepeaca</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7545.193910364003!2d-97.9044797!3d18.9933993!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cf8ce87440d8fb%3A0xefb533b312c525e0!2sHospital%20General%20de%20Tepeaca%20Dr.%20Antonio%20L%C3%B3pez%20Rosas%20S%2FN%20San%20Isidro%2075200%20Tepeaca%2C%20Pue.!3m2!1d18.9933993!2d-97.9044797!5e0!3m2!1ses-419!2smx!4v1701834884074!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-13" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General de Tehuacán</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7569.576570018708!2d-97.419492!3d18.4479194!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85c5bd45bed64327%3A0x928fef1ab40deb12!2sHospital%20General%20de%20Tehuacan%20C.%2019%20Pte.%203800%20El%20Riego%2C%20M%C3%A9xico%2075764%20Tehuac%C3%A1n%2C%20Pue.!3m2!1d18.4479194!2d-97.41949199999999!5e0!3m2!1ses-419!2smx!4v1701834916743!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-14" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General de Huauchinango</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7489.491483435545!2d-98.0691794!3d20.1863093!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85d08a360573d97b%3A0x4c8e5d208a77083!2sHospital%20General%20de%20Huauchinango%20calle%20Ini%20No.%207%20Fetse%2C%20Colonia%20Fstse%2073160%20Huauchinango%2C%20Pue.!3m2!1d20.186309299999998!2d-98.0691794!5e0!3m2!1ses-419!2smx!4v1701834950333!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-15" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital General de Cholula</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7544.118111678744!2d-98.2658264!3d19.0171192!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc79d7074953b%3A0x5aa49d7849ea002f!2sHospital%20General%20de%20Cholula%2072820%20San%20Bernardino%20Tlaxcalancingo%2C%20Pue.!3m2!1d19.0171192!2d-98.2658264!5e0!3m2!1ses-419!2smx!4v1701834983924!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-16" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital del Niño Poblano</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7543.3197313644905!2d-98.2443973!3d19.034704!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc76dc0000001%3A0x293d21c4cefdb64f!2sHospital%20para%20el%20Ni%C3%B1o%20Poblano%20Blvrd%20del%20Ni%C3%B1o%20Poblano%205307%20Reserva%20Territorial%20Atlixc%C3%A1yotl%2C%20Concepci%C3%B3n%20la%20Cruz%2072190%20San%20Andr%C3%A9s%20Cholula%2C%20Pue.!3m2!1d19.034703999999998!2d-98.24439729999999!5e0!3m2!1ses-419!2smx!4v1701835040132!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-17" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital de la Mujer y Neonatologí­a de Tehuacán</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7568.36681512103!2d-97.4349544!3d18.4753497!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85c5a3f7036c415d%3A0xd877b686cdaa1ce!2shospital%20de%20la%20mujer%20y%20neonatologia%20Federal%20Pte.%20San%20Lorenzo%20Teotipilco%2075855%20Tehuac%C3%A1n%2C%20Pue.!3m2!1d18.4753497!2d-97.4349544!5e0!3m2!1ses-419!2smx!4v1701835090540!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-18" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital de la Mujer</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7545.528732646772!2d-98.2407562!3d18.9860111!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfb8be7dc98d03%3A0x5376e43ac699d806!2sHospital%20de%20la%20Mujer%20Puebla%20Antiguo%20Camino%20Guadalupe%20Hidalgo%2011350%20Agua%20santa%2C%20Guadalupe%20Hidalgo%2072490%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d18.9860111!2d-98.24075619999999!5e0!3m2!1ses-419!2smx!4v1701835120872!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-19" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Christus Muguerza UPAEP</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7542.831217383081!2d-98.205232!3d19.0454561!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0db8c88a509%3A0x32e7e79997867ce6!2sCHRISTUS%20MUGUERZA%20Hospital%20UPAEP%20Av%205%20Pte%20715%20Centro%2072000%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0454561!2d-98.205232!5e0!3m2!1ses-419!2smx!4v1701835160818!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+          <div id="mapa-20" class="contenedorMapa ocultar-mapa">
+            <div class="row">
+              <div class="col-9">
+                <h3 class="titulos-mapas">Hospital Christus Muguerza Betania</h3>
+              </div>
+              <div class="col-3">
+                <button type="button" onclick="mostrarMapa('mapa-general');" class="btn btn-primary" id="btn-mapGeneral">Mapa
+                  general</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7543.323533172197!2d-98.1878971!3d19.0346203!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85cfc0f270895c7f%3A0x48615e98faf1e73a!2sCHRISTUS%20MUGUERZA%20Hospital%20Betania%20Av%2011%20Ote%201826%20Azcarate%2072501%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!3m2!1d19.0346203!2d-98.1878971!5e0!3m2!1ses-419!2smx!4v1701835195482!5m2!1ses-419!2smx"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------  -->
+
+
+
+
+        </div>
+        <!-- FIN DE CONTENEDOR DE MAPAS-->
+
+
+      </div>
+      <!-- FIN DE COLUMNA DE MAPAS-->
+
+    </div>
+    <!-- FIN DE FILA DE HOSPITALES Y MAPAS MAPAS-->
+
+
+
+
+
+
+  </div>
+  <!-- FIN DE CONTENEDOR DE TODA LA INFO-->
+
+
+
+
+
+
+
+
+
+  <!--::::Pie de Pagina::::::-->
+  <footer class="pie-pagina">
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          <small>&copy; 2023 <b>by Luwa</b></small>
+        </div>
+        <div class="col-2">
+          <a href="https://www.facebook.com/profile.php?id=100086494817985&mibextid=LQQJ4d">
+            <img class="img-redessociales" src="imagenes/facebook.svg">
+
+          </a>
+          <a href="https://instagram.com/tse_olintla?igshid=NTc4MTIwNjQ2YQ==">
+            <img class="img-redessociales" src="imagenes/instagram.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--::::Fin de Pie de Pagina::::::-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
