@@ -480,7 +480,17 @@ header .margen-ima {
   align-items: center;
 }
 
-#tarjeta-just {
+#tarjeta-just { 
+  height: 100%;
+  border-style: none;
+  background: none;
+}
+#tarjeta-just2 { 
+  height: 100%;
+  border-style: none;
+  background: none;
+}
+#tarjeta-just3 { 
   height: 100%;
   border-style: none;
   background: none;
