@@ -1508,23 +1508,24 @@ input[type=radio]:checked{
   background-repeat: no-repeat;
 }
 
-.grid-item:hover {
-  filter: opacity(0.9);
-  transform: scale(1.04);
+.grid-item:hover {/*efecto de las imagenes al parecer el cursor*/
+  filter: opacity(0.9); 
+  transform: scale(1.5);
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 20px;
-  padding: 20px;
-  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*ancho de las columnas*/ 
+  /*autofill rellena el espacio con nuevas columnas y autofit usa todo el espacio disponible para las columnas que existen*/
+  grid-auto-rows: minmax(200px, auto); /*alto de las columnas*/
+  gap: 20px; /* espacio entre los elemnetos*/
+  padding: 20px; /* espacio efuera de los elementos*/
+  grid-auto-flow: dense; /*acomoda automaticamento los elementos para cubrir los espacio en blanco*/
 }
 
 @media (min-width: 600px) {
   .wide {
-    grid-column: span 2;
+    grid-column: span 2; /*span es para los usar mas de un espacio*/
   }
 
   .tall {
