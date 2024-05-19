@@ -1508,10 +1508,7 @@ input[type=radio]:checked{
   background-repeat: no-repeat;
 }
 
-.grid-item:hover {/*efecto de las imagenes al parecer el cursor*/
-  filter: opacity(0.9); 
-  transform: scale(1.5);
-}
+
 
 .grid-container {
   display: grid;
