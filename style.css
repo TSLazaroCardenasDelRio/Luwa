@@ -1534,6 +1534,7 @@ input[type=radio]:checked{
   grid-template-rows: 250px;
   grid-gap: 20px;
   padding: 100px 0;
+  grid-auto-flow: dense; /*acomoda automaticamento los elementos para cubrir los espacio en blanco*/
 }
 
 .boxg img{
