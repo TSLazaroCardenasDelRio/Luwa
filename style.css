@@ -427,11 +427,6 @@ header .margen-ima {
 /*-- ======= FIN DE COLABORADORES=============-*/
 
 /*--------------------------------------FIN DE CONTENEDOR GENERAL-------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------*/
-
-
-
-
 
 
 /*TITULOS */
@@ -510,8 +505,6 @@ header .margen-ima {
 
 }
 
-
-
 #img-cadenatrofica {
   height: 150px;
   width: 200px;
@@ -522,10 +515,6 @@ header .margen-ima {
   width: 150px;
 }
 
-
-
-
-/*========================================================================================================*/
 /*===============================FUNDAMENTO TEORICO======================================================*/
 
 
@@ -637,12 +626,6 @@ header .margen-ima {
 }
 
 
-
-
-
-
-
-
 /*_______________educacion ambiental_________________*/
 
 .general-contenedortxt {
@@ -669,7 +652,6 @@ header .margen-ima {
   margin: 15px 10px;
 }
 
-
 /*_______________amenazas a la conservación_________________*/
 
 
@@ -683,26 +665,17 @@ header .margen-ima {
   height: 230px;
 }
 
-
 /*========================================================================================================*/
 /*===============================FIN DE FUNDAMENTO TEORICO======================================================*/
-
-
-
-
 
 
 
 /*========================================================================================================*/
 /*===============================CARACTERISTICAS sin usar=====================================================*/
 
-
-
-
 #menu-caracteristicas {
   text-align: center;
 }
-
 
 .menunav-carac {
   justify-content: center;
@@ -713,14 +686,7 @@ header .margen-ima {
 }
 
 
-
-
-
-/*========================================================================================================*/
 /*===============================FIN DE CARACTERISTICAS======================================================*/
-
-
-
 
 
 /*========================================================================================================*/
@@ -730,7 +696,6 @@ header .margen-ima {
   height: 200px;
   width: 100%;
 }
-
 
 /*========================================================================================================*/
 /*===============================DIVERSIDAD DE SERPIENTES EN MÈXICO======================================================*/
@@ -881,21 +846,10 @@ header .margen-ima {
   justify-content: center;
   align-items: center;
   display: flex;
-  
-
 }
-
-
-
-
 
 /*===============================FIN DE DIVERSIDAD DE SERPIENTES EN MÈXICOCO======================================================*/
 
-
-
-
-
-/*========================================================================================================*/
 /*===============================CONTACTO======================================================*/
 
 #contenedor-contacto {
@@ -1363,19 +1317,6 @@ input[type=radio]:checked{
   padding: 10px 10px;
 }
 
-/*
-#acordeon-hospital{
-  background-color: darkorange;
-  
-}
-
-#acordeon{
-  background-color: darkred;
-  
-}
-*/
-
-
 #headingOne{
   padding-bottom: 20px;
 }
@@ -1486,78 +1427,43 @@ input[type=radio]:checked{
 
 /*================================= FIN EMERGENCIAS========================================*/
 
-/*================================= galeria2 de imagenes evidencias =======================*/
 
-.grid-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: #848551;
-  border-radius: 4px;
-  transition: transform 0.3s ease-in-out;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*ancho de las columnas*/ 
-  /*autofill rellena el espacio con nuevas columnas y autofit usa todo el espacio disponible para las columnas que existen*/
-  grid-auto-rows: minmax(200px, auto); /*alto de las columnas*/
-  gap: 20px; /* espacio entre los elemnetos*/
-  padding: 20px; /* espacio efuera de los elementos*/
-  grid-auto-flow: dense; /*acomoda automaticamento los elementos para cubrir los espacio en blanco*/
-}
-
-@media (min-width: 600px) {
-  .wide {
-    grid-column: span 2; /*span es para los usar mas de un espacio*/
-  }
-
-  .tall {
-    grid-row: span 2;
-  }
-}
-
-/*=============================== fin de galeria2 de imagenes evidencias ===========================*/
+/*================================= galeria de imagenes evidencias =======================*/
 
 .conteinerGaleria{
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*ancho de las columnas*/ 
   grid-template-rows: 250px;
-  grid-gap: 20px;
-  padding: 100px 0;
-  grid-auto-flow: dense; /*acomoda automaticamento los elementos para cubrir los espacio en blanco*/
+  grid-gap: 20px; /* espacio entre los elemnetos*/
+  padding: 20px 0;  /* espacio efuera de los elementos*/
 }
 
-.boxg img{
+.box img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.boxg:nth-child(1){
+.box:nth-child(1){
   grid-column-start: span 2;
 }
-.boxg:nth-child(4){
+.box:nth-child(5){
   grid-column-start: span 2;
 }
 
-@media(max-width:991px){
+
+@media(max-width:600px){
   .conteinerGaleria{
     padding: 30px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .boxg:nth-child(1){
+  .box:nth-child(1){
     grid-column-start: span 1;
   }
-  .boxg:nth-child(4){
+  .box:nth-child(5){
     grid-column-start: span 1;
   }
 }
+
+/*=============================================== fin galeria de imagenes =================*/
