@@ -1284,7 +1284,10 @@ input[type=radio]:checked{
   height: 90px;
   width: auto;
 }
-
+#img-apli{
+  height: 300px;
+  width: auto;
+}
 
 /*================================== EMERGENCIAS ============================*/
 
